@@ -25,7 +25,7 @@ const GetEmails =()=>{
         {user.map(item=>{
             return( 
             <tr style={{textAlign:'center'}} key={item.email}>
-                <td>{item.userName}</td>
+               
                 <td>{item.email}</td>
             </tr> 
             )

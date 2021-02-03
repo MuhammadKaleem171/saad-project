@@ -15,6 +15,18 @@ text-align: center;
 }
 .header p span{
     font-size: 48px;
+    font-weight: bold;
+}
+.p2{
+    position: absolute;
+    top:60px;
+}
+.line2{
+    font-size: 28px !important;
+text-align: center;
+display: flex;
+position: relative;
+top: 9%;
 }
 .mainContainer{
     max-width: 960px;
@@ -60,6 +72,7 @@ margin-bottom: 5px;
         width: 100%;
         border-color: #879dab;
 color: #2A353C;
+height: 50px;
 }
 .btn{
     width: 100%;
@@ -70,6 +83,8 @@ color: #2A353C;
     background-color: #EA9D1C;
     margin-top: 15px;
     color:white !important;
+    font-size: 24px;
+margin-top: 27px;
 }
 .btn:hover{
     background-color: #CD8513 !important;
@@ -81,4 +96,80 @@ color: #2A353C;
     background-color: #ea9d1c;
     margin:  0 auto;
     text-align: center;
+    border-color: #605a5b;
+    border: 4px solid;
+}
+.fline{
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 23px;
+}
+@media screen and (max-width:768px){
+    .container{
+        scroll-behavior: smooth;
+    }
+    .header{
+        width: 100vw;
+    }
+    .mainContainer{
+        width: 100vw;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    .leftImage{
+        width: 50vw;
+        height: 50vh;
+        margin: 0 auto;
+    }
+    .leftImage img{
+        width: 100%;
+        height: 100%;
+    }
+    .form{
+        width: 100vw;
+        height: 45vh;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .form form{
+        width: 100%;
+        padding-top:20px;
+    }
+    .form form span{
+        font-size: 27px;
+    }
+    .form form input{
+        height: 60px;
+    }
+    .btn{
+        margin-top: 40px;
+    }
+    .footer{
+        width: 100vw;
+        margin-top: 10px;
+    }
+    .header p span{
+        font-size: 38px;
+    }
+    .line2{
+        top:6%;
+    }
+}
+
+@media screen and (max-width:514px){
+    .header p span{
+        font-size: 28px;
+    }
+    .line2 {
+        font-size: 20px;
+    }
+.fline{
+    font-size:24px ;
+}
+.p2{
+    top:40px;
+}
 }

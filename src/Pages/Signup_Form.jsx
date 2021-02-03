@@ -28,12 +28,13 @@ console.log('hello')
     return (
         <div className="container">
              <div className="header">
-                 <p><span><strong>To Get&nbsp;Free&nbsp;pdf&nbsp;&nbsp;</strong></span><span style={{color:"#ea9d1c"}}>
+
+                 <p><span>To Get&nbsp;Free&nbsp;pdf&nbsp;</span><span style={{color:"#ea9d1c"}}>
                      <strong>
-                     E-Book</strong></span> <span><strong>Now</strong></span></p><br></br>
+                     E-Book</strong></span> <span>&nbsp;Now</span></p><br></br>
 
-                     <p style={{position:'absolute',top:'60px'}}><span style={{fontSize:'28px'}}>Enter your name and email address</span></p>
-
+                     <p className="p2"><span className="line2">Enter your name and email address</span></p>
+                     
 </div>
         <div className="mainContainer">
            
@@ -46,17 +47,21 @@ console.log('hello')
         <input type="text" value={userName} onChange={e=> setuserName(e.target.value)}/>
         <span>Email</span>
         <input type="text" value={email} onChange={e=>setEmail(e.target.value)}/>
-        <input className="btn" type="submit" value="submit"/>
+        <input className="btn" type="submit" value="GET FREE E-BOOK"/>
     </form>
 </div>
         </div>
         <div className="footer">
             <div>
-                <p style={{fontSize:"24px",color:"white",textDecoration:'underline'}}>SUBMIT TO REVEAL</p>
-                <p style={{fontSize:"32px",margin:"0",padding:"0"}}>
+                <b>
+                <p style={{fontSize:"24px",color:"white",textDecoration:'underline',position:'relative',top:"-6px"}}>SUBMIT TO REVEAL</p>
+                </b>
+                <b>
+                <p className="fline">
 How To Get The World's Largest<br></br>
  Collection of <span style={{color:"white"}}> Woodworking  Plans</span>
 </p>
+</b>
             </div>
     
     </div> 
